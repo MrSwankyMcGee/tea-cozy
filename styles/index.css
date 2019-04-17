@@ -3,9 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-html{
-  background-color: black;
-}
+/*
 .header{
   display: flex;
   background-color: black;
@@ -13,20 +11,19 @@ html{
   height: 69px;
   position:fixed;
   border-bottom: seashell solid 1px;
+  color: seashell;
 }
-
+*/
 .logo{
   background-image: url("../resources/images/logo (1).png");
   height: 50px;
   margin-left: 10px;
 }
 body{
-  margin:auto;
   background-image: url("../resources/images/img-mission-background.jpg");
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
   height: 700px;
   width: 1200px;
-  z-index: -3;
-
+  z-index: 3;
 }
