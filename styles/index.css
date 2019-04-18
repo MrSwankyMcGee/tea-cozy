@@ -52,6 +52,7 @@ body{
   font-size: 22px;
   color: seashell;
 }
+/*CENTER BAND TOP*/
 #mission{
   background-image: url("../resources/images/img-mission-background.jpg");
   height: 700px;
@@ -62,12 +63,24 @@ body{
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
+align-items: center;
 }
 #mission .top-content{
+  margin-top: 325px;
   background-color: black;
   width: 100%;
-  margin: auto;
 }
-.top-content{
 
+/*END CENTER BAND TOP*/
+/*TEA OF THE MONTH*/
+#store{
+  height: 700px;
+  width: 1000px;
+  margin:auto;
+  padding-top: 70px;
+}
+
+.middle-content{
+  margin-top: 225px;
+  background-color: black;
 }
